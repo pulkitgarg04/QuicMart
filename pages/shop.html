@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QuicMart - Your Own Fashion Store</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="./css/shop.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <script src="https://kit.fontawesome.com/69a72a2c24.js" crossorigin="anonymous"></script>
 </head>
@@ -13,17 +14,17 @@
 <body>
     <section id="header">
         <a href="#">
-            <img src="assets/logo.png" class="logo">
+            <img src="../assets/logo.png" class="logo">
         </a>
         <div>
             <ul id="navbar">
-                <li><a class="active" href="index.html">Home</a></li>
-                <li><a href="./pages/shop.html">Shop</a></li>
-                <li><a href="./pages/blog.html">Blog</a></li>
-                <li><a href="./pages/about.html">About</a></li>
-                <li><a href="./pages/contact.html">Contact</a></li>
-                <li class="lg-account"><a href="./pages/account.html"><span class="material-symbols-outlined">person</span></a></li>
-                <li class="lg-bag"><a href="./pages/cart.html"><span class="material-symbols-outlined">local_mall</span></a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a class="active" href="./shop.html">Shop</a></li>
+                <li><a href="./blog.html">Blog</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li class="lg-account"><a href="./account.html"><span class="material-symbols-outlined">person</span></a></li>
+                <li class="lg-bag"><a href="./cart.html"><span class="material-symbols-outlined">local_mall</span></a></li>
                 <a href="#"><span id="close-btn" class="material-symbols-outlined">close</span></a>
             </ul>
         </div>
@@ -33,47 +34,15 @@
         </div>
     </section>
 
-    <section id="hero">
-        <h4>Trade-in-offer</h4>
-        <h2>Super Value Deals</h2>
-        <h2 class="hero-main-text">Fall Winter Collections</h2>
-        <p>Save more with coupons and upto 70% off!</p>
-        <button>Shop Now</button>
-    </section>
-
-    <section id="feature" class="section-p1">
-        <div class="fe-box">
-            <img src="./assets/features/f1.png" alt="">
-            <h6>Free Shipping</h6>
-        </div>
-        <div class="fe-box">
-            <img src="./assets/features/f2.png" alt="">
-            <h6>Online Order</h6>
-        </div>
-        <div class="fe-box">
-            <img src="./assets/features/f3.png" alt="">
-            <h6>Save Money</h6>
-        </div>
-        <div class="fe-box">
-            <img src="./assets/features/f4.png" alt="">
-            <h6>Promotions</h6>
-        </div>
-        <div class="fe-box">
-            <img src="./assets/features/f5.png" alt="">
-            <h6>Happy Sell</h6>
-        </div>
-        <div class="fe-box">
-            <img src="./assets/features/f6.png" alt="">
-            <h6>24/7 Support</h6>
-        </div>
+    <section id="shop-hero">
+        <h2>#stayhome</h2>
+        <p>Save more with coupons & up to 70% off!</p>
     </section>
 
     <section id="product1" class="section-p1">
-        <h2>Featured Products</h2>
-        <p>Summer Collection New Morden Design</p>
         <div class="product-container">
-            <div class="product">
-                <img src="./assets/products/f1.jpg">
+            <div class="product" onclick="window.location.href='./products/sproduct.html'">
+                <img src="../assets/products/f1.jpg">
                 <div class="product-description">
                     <span>Adidas</span>
                     <h5>Cartoon Astronaut T-Shirts</h5>
@@ -91,7 +60,7 @@
                 </a>
             </div>
             <div class="product">
-                <img src="./assets/products/f2.jpg">
+                <img src="../assets/products/f2.jpg">
                 <div class="product-description">
                     <span>Zara</span>
                     <h5>Men Flower T-Shirt</h5>
@@ -109,7 +78,7 @@
                 </a>
             </div>
             <div class="product">
-                <img src="./assets/products/f3.jpg">
+                <img src="../assets/products/f3.jpg">
                 <div class="product-description">
                     <span>Nike</span>
                     <h5>Galaxy Print T-Shirts</h5>
@@ -127,7 +96,7 @@
                 </a>
             </div>
             <div class="product">
-                <img src="./assets/products/f4.jpg">
+                <img src="../assets/products/f4.jpg">
                 <div class="product-description">
                     <span>Puma</span>
                     <h5>Retro Style T-Shirts</h5>
@@ -145,7 +114,7 @@
                 </a>
             </div>
             <div class="product">
-                <img src="./assets/products/f5.jpg">
+                <img src="../assets/products/f5.jpg">
                 <div class="product-description">
                     <span>Reebok</span>
                     <h5>Abstract Art T-Shirts</h5>
@@ -163,7 +132,7 @@
                 </a>
             </div>
             <div class="product">
-                <img src="./assets/products/f7.jpg">
+                <img src="../assets/products/f7.jpg">
                 <div class="product-description">
                     <span>Under Armour</span>
                     <h5>Space Adventure Plazo</h5>
@@ -181,7 +150,7 @@
                 </a>
             </div>
             <div class="product">
-                <img src="./assets/products/f8.jpg">
+                <img src="../assets/products/f8.jpg">
                 <div class="product-description">
                     <span>New Balance</span>
                     <h5>Mountain View T-Shirts</h5>
@@ -199,7 +168,7 @@
                 </a>
             </div>
             <div class="product">
-                <img src="./assets/products/f6.jpg">
+                <img src="../assets/products/f6.jpg">
                 <div class="product-description">
                     <span>Fila</span>
                     <h5>Urban Street T-Shirts</h5>
@@ -216,21 +185,8 @@
                     <i class="fas fa-shopping-cart cart"></i>
                 </a>
             </div>
-        </div>
-    </section>
-
-    <section id="banner" class="section-m1">
-        <h4>Repair Services</h4>
-        <h2>Up to <span>70% Off</span> - All T-Shirts & Accessories</h2>
-        <button class="normal">Explore More</button>
-    </section>
-
-    <section id="product1" class="section-p1">
-        <h2>New Arrivials</h2>
-        <p>Summer Collection New Morden Design</p>
-        <div class="product-container">
             <div class="product">
-                <img src="./assets/products/n1.jpg">
+                <img src="../assets/products/n1.jpg">
                 <div class="product-description">
                     <span>Adidas</span>
                     <h5>Cartoon Astronaut T-Shirts</h5>
@@ -248,7 +204,7 @@
                 </a>
             </div>
             <div class="product">
-                <img src="./assets/products/n2.jpg">
+                <img src="../assets/products/n2.jpg">
                 <div class="product-description">
                     <span>Zara</span>
                     <h5>Men Flower T-Shirt</h5>
@@ -266,7 +222,7 @@
                 </a>
             </div>
             <div class="product">
-                <img src="./assets/products/n3.jpg">
+                <img src="../assets/products/n3.jpg">
                 <div class="product-description">
                     <span>Nike</span>
                     <h5>Galaxy Print T-Shirts</h5>
@@ -284,7 +240,7 @@
                 </a>
             </div>
             <div class="product">
-                <img src="./assets/products/n4.jpg">
+                <img src="../assets/products/n4.jpg">
                 <div class="product-description">
                     <span>Puma</span>
                     <h5>Retro Style T-Shirts</h5>
@@ -302,7 +258,7 @@
                 </a>
             </div>
             <div class="product">
-                <img src="./assets/products/n5.jpg">
+                <img src="../assets/products/n5.jpg">
                 <div class="product-description">
                     <span>Reebok</span>
                     <h5>Abstract Art T-Shirts</h5>
@@ -320,7 +276,7 @@
                 </a>
             </div>
             <div class="product">
-                <img src="./assets/products/n7.jpg">
+                <img src="../assets/products/n7.jpg">
                 <div class="product-description">
                     <span>Under Armour</span>
                     <h5>Space Adventure T-Shirts</h5>
@@ -338,7 +294,7 @@
                 </a>
             </div>
             <div class="product">
-                <img src="./assets/products/n8.jpg">
+                <img src="../assets/products/n8.jpg">
                 <div class="product-description">
                     <span>New Balance</span>
                     <h5>Mountain View T-Shirts</h5>
@@ -356,7 +312,7 @@
                 </a>
             </div>
             <div class="product">
-                <img src="./assets/products/n6.jpg">
+                <img src="../assets/products/n6.jpg">
                 <div class="product-description">
                     <span>Fila</span>
                     <h5>Urban Street Pants</h5>
@@ -376,34 +332,10 @@
         </div>
     </section>
 
-    <section id="sm-banner" class="section-p1">
-        <div class="banner-box">
-            <h4>Crazy Deals</h4>
-            <h2>Buy 1 Get 1 Free</h2>
-            <span>The best classic dress is on sale at QuicMart</span>
-            <button class="white">Learn More</button>
-        </div>
-        <div class="banner-box banner-box2">
-            <h4>Spring / Summer</h4>
-            <h2>Buy 1 Get 1 Free</h2>
-            <span>The best classic dress is on sale at QuicMart</span>
-            <button class="white">Learn More</button>
-        </div>
-    </section>
-
-    <section id="banner3">
-        <div class="banner-box">
-            <h2>SEASONAL SALE</h2>
-            <h3>Winter Collection -50% Off</h3>
-        </div>
-        <div class="banner-box banner-box2">
-            <h2>NEW FOOTWARE COLLECTION</h2>
-            <h3>Spring / Summer 2022</h3>
-        </div>
-        <div class="banner-box banner-box3">
-            <h2>T-SHIRTS</h2>
-            <h3>New Trendy Prints</h3>
-        </div>
+    <section id="pagination" class="section-p1">
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#"><i class="fa fa-long-arrow-alt-right"></i></a>
     </section>
 
     <section id="newsletter" class="section-p1">
@@ -419,7 +351,7 @@
 
     <footer class="section-p1">
         <div class="col">
-            <img src="./assets/logo.png" class="logo">
+            <img src="../assets/logo.png" class="logo">
             <h4>Contact</h4>
             <p><strong>Address: </strong>Kaccha College Road, Barnala, Punjab - 148101</p>
             <p><strong>Phone: </strong>+91 98765432xx, +91 1234567xx</p>
@@ -458,11 +390,11 @@
             <h4>Install App</h4>
             <p>From App Store or Google Play</p>
             <div class="row">
-                <img src="./assets/pay/app.jpg" alt="">
-                <img src="./assets/pay/play.jpg" alt="">
+                <img src="../assets/pay/app.jpg" alt="">
+                <img src="../assets/pay/play.jpg" alt="">
             </div>
             <p>Secured Payment Gateways</p>
-            <img src="./assets/pay/pay.png" alt="">
+            <img src="../assets/pay/pay.png" alt="">
         </div>
 
         <div class="copyright">
@@ -470,7 +402,7 @@
         </div>
     </footer>
 
-    <script src="./script.js"></script>
+    <script src="../script.js"></script>
 </body>
 
 </html>
