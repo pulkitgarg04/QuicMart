@@ -1,0 +1,49 @@
+/* Hero Section */
+#account-hero {
+    background-image: url("../../assets/about/banner.png");
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+}
+
+#account-hero h2,
+#account-hero p {
+    color: #fff;
+}
+
+#information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#information .information-box {
+    width: 80%;
+    margin-bottom: 30px;
+    border: 1px solid #e2e9e1;
+    padding: 30px;
+}
+
+#information .information-box h3 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#information .information-box table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+#information .information-box table td {
+    width: 50%;
+    border: 1px solid #e2e9e1;
+    padding: 10px;
+    font-size: 13px;
+}
