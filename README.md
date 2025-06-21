@@ -36,4 +36,4 @@ This project was created as a learning exercise following a YouTube tutorial. So
 You are welcome to open issues or submit PRs to improve this app, however, please note that we may not review all suggestions.
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE.md) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
